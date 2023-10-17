@@ -1,9 +1,11 @@
-body {
-  font-family: 'Jost';
+html,
+body,
+#root {
+  height: 100%;
 }
 
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 120px;
+body {
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  color: #64646a;
 }
