@@ -1,21 +1,16 @@
 import styles from './Menu.module.scss'
 
-export const Menu = () => {
+export const Menu = ({ menu }) => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <a href='#'>Cafe Munu</a>
-        </li>
-        <li>
-          <a href='#'>About Us</a>
-        </li>
-        <li>
-          <a href='#'>Find Us</a>
-        </li>
-        <li>
-          <a href='#'>Alowishus Catering</a>
-        </li>
+    <nav className={styles.nav}>
+      <ul className={styles.list}>
+        {menu.map((item) => (
+          <li className={styles.item} key={item.id}>
+            <a className={styles.link} href={item.link}>
+              {item.text}
+            </a>
+          </li>
+        ))}
       </ul>
     </nav>
   )

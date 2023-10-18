@@ -1,5 +1,16 @@
 .header {
+  display: grid;
+  grid-template-columns: 126px 1fr;
+  justify-items: self-end;
   .logo {
     width: 126px;
+  }
+  .headerContent {
+    display: flex;
+    align-items: center;
+  }
+  .button {
+  }
+  .buttonBuy {
   }
 }
