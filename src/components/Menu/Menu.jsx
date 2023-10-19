@@ -2,7 +2,7 @@ import styles from './Menu.module.scss'
 
 export const Menu = ({ menu }) => {
   return (
-    <nav className={styles.nav}>
+    <nav className={styles.root}>
       <ul className={styles.list}>
         {menu.map((item) => (
           <li className={styles.item} key={item.id}>

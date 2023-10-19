@@ -1,7 +1,10 @@
 .header {
+  position: sticky;
+  top: 0;
   display: grid;
   grid-template-columns: 126px 1fr;
   justify-items: self-end;
+  background-color: #ffffff;
   .logo {
     width: 126px;
   }
@@ -9,8 +12,14 @@
     display: flex;
     align-items: center;
   }
-  .button {
+  .basket {
+    margin-left: 40px;
+    img {
+      width: 24px;
+      height: 24px;
+    }
   }
-  .buttonBuy {
+  .buy {
+    margin-left: 20px;
   }
 }

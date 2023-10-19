@@ -1,0 +1,13 @@
+.root {
+  padding: 15px 30px;
+  font-size: 15px;
+  line-height: 173.333%;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #1b1b1d;
+  border-radius: 63px;
+  box-shadow: 0 30px 60px 0px rgba(163, 168, 178, 0.15);
+  &:hover {
+    background-color: #64646a;
+  }
+}

@@ -9,3 +9,10 @@ body {
   font-size: 20px;
   color: #64646a;
 }
+
+a {
+  color: #1b1b1d;
+  &:hover {
+    color: #64646a;
+  }
+}

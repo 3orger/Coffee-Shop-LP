@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  padding-top: 120px;
+  .content {
+    max-width: 597px;
+  }
+  .title {
+    margin-bottom: 30px;
+    font-size: 124px;
+    font-weight: 800;
+    line-height: 112.903%;
+    color: #1b1b1d;
+    img {
+      margin-left: 25px;
+      width: 73px;
+      height: 58px;
+    }
+  }
+  .text {
+    margin-bottom: 60px;
+    font-size: 24px;
+  }
+  .download {
+    margin-right: 30px;
+  }
+  .link {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 1px solid #1b1b1d;
+  }
+  .image {
+    max-width: 700px;
+  }
+}

@@ -1,3 +1,5 @@
+import { Button } from '../Button/Button'
+
 import styles from './MainBanner.module.scss'
 
 export const MainBanner = () => {
@@ -11,7 +13,7 @@ export const MainBanner = () => {
           A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.
         </p>
         <div className={styles.actions}>
-          <button className={styles.button}>Download App</button>
+          <Button className={styles.download}>Download App</Button>
           <a className={styles.link} href='#'>
             Shop Coffee
           </a>
